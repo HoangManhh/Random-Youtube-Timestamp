@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Random YouTube Timestamp</title>
+  <style>
+    body {
+      width: 200px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+    /* CSS để tạo kiểu cho nút */
+    #toggleButton {
+      padding: 10px 20px;
+      font-size: 16px;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      background-color: red; /* Màu mặc định là đỏ */
+    }
+
+    /* CSS khi nút được bật */
+    #toggleButton.on {
+      background-color: green; /* Màu khi bật là xanh */
+    }
+  </style>
+</head>
+<body>
+  <button id="randomTimestamp">Jump to Random Timestamp</button>
+  <button id="randomChapter">Jump to Random Chapter</button>
+  <button id="toggleButton">OFF</button>
+  <script src="popup.js"></script>
+</body>
+</html>
